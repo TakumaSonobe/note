@@ -92,3 +92,5 @@ git commit -m "first commit"
 git remote add origin git@github.com:TakumaSonobe/note.git
 git push -u origin master
 ```
+
+参考 →　[Githubに新規リポジトリ(Repository)を作成する](https://qiita.com/bakainubau/items/4613dda50a5fa302d212)
