@@ -17,6 +17,8 @@ mkdir [GitHubで作成したRepository name]
 git init
 ```
 
+Bash:example
+
 ```Bash:example 
 cd /work/rocal/repository
 git init
@@ -31,6 +33,8 @@ git init
 touch [ファイル名]
 ```
 
+Bash:example
+
 ```Bash:example
 touch README.md
 ```
@@ -42,6 +46,8 @@ git add .
 git commit -m "[コミットのコメント]"
 ```
 
+Bash:example
+
 ```Bash:example 
 git add .
 git commit -m "FirstCommit"
@@ -52,9 +58,13 @@ git commit -m "FirstCommit"
 git remote add origin [リモートリポジトリ情報]
 ```
 
+Bash:example
+
 ```Bash:example 
 git remote add origin https://github.com/xxxx/sample-repository.git
 ```
+
+https://github.com/...以降は新しく作成したリポジトリのページに記載されている
 
 2回目以降この操作はいらない
 
