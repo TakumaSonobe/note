@@ -64,7 +64,7 @@ Bash:example
 git remote add origin https://github.com/xxxx/sample-repository.git
 ```
 
-https://github.com/...以降は新しく作成したリポジトリのページに記載されている
+URLの部分は新しく作成したリポジトリのページに記載されている
 
 2回目以降この操作はいらない
 
