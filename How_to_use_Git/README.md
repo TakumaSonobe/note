@@ -26,7 +26,7 @@ git init
 
 以上にてPC側の設定は完了
 
-### 初めてのPush
+### Pushまでの流れ
 
 #### 1. Gitのリポジトリが管理されている階層にて、何かしらのファイルを作成する。
 ```
@@ -70,7 +70,7 @@ URLの部分は新しく作成したリポジトリのページに記載され�
 
 #### 4. ローカルリポジトリをリモートリポジトリへ反映させる
 ```
-git push origin master
+git push -u origin master
 ```
 
 2回目以降は
@@ -94,3 +94,39 @@ git push -u origin master
 ```
 
 参考 →　[Githubに新規リポジトリ(Repository)を作成する](https://qiita.com/bakainubau/items/4613dda50a5fa302d212)
+
+
+## ブランチの仕方
+
+直接masterは弄らない。
+
+基本的には、新たにブランチを作り作業をする。
+
+### PC側
+
+新たにブランチを作成する
+
+```
+git checkout -b [ブランチ名]
+```
+
+Bash:example
+
+```Bash:example 
+git checkout -b takuma/branch
+```
+
+ブランチ名は、`名前/ブランチ名`にするのがおすすめ。
+そうすることで、誰が今作業していることがわかるため。
+因みに、作業中は[WIP]と書くことが多い。
+
+### Github側
+
+特になし
+
+
+## Margeの仕方
+
+Github側でpull requestをする
+
+
