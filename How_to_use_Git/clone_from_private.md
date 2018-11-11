@@ -25,7 +25,7 @@ git clone https://username@github.com/username/private-repository.git
 (’ˆÓ)
 `@github.com/username/private-repository.git`‚Ì•”•ª‚ÍAclone with HTTPS ‚ğ—˜—p‚·‚é‚±‚Æ
 
-![git]()
+![git](https://github.com/TakumaSonobe/note/blob/master/How_to_use_Git/clone.PNG)
 
 ãè‚­‚¢‚­‚Æ‚±‚Ì‚æ‚¤‚È‰æ–Ê‚ª•\¦‚³‚ê‚é
 
